@@ -1,6 +1,6 @@
-print("Please copy your AWS key pair file to the directory this script is in before proceeding further.")
+input("Please copy your AWS key pair file to the directory this script is in before proceeding further. \nPress enter to continue")
 
-kp_name = input("Please enter the name of AWS key pair: ")
+kp_name = input("Please enter the name of AWS key pair file: ")
 num_ip = int(input("Number of Instances for which to enable passwordless ssh: "))
 
 ips = []
