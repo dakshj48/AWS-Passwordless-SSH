@@ -4,7 +4,7 @@ Script to enable passwordless SSH on AWS EC2 servers
 ### Requirements:
 - Python 3
 - IPs of the AWS instances.
-- AWS key pair used to start the AWS instances needed in the root directory of the script.
+- AWS key pair used to start the AWS instances is needed in the root directory of the script.
 - Configure the source and destination values in inbound and outbound rules of the security group of the instances to `Anywhere`.
 
 ### Instructions:
