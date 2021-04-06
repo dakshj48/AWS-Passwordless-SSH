@@ -1,6 +1,8 @@
 # AWS-Passwordless-SSH
 Script to enable passwordless SSH on AWS EC2 servers
 
+Based on the [linked](https://stackoverflow.com/a/34470546/10401847) stackoverflow answer. Tested on Ubuntu 18.04.
+
 ### Requirements:
 - Python 3
 - IPs of the AWS instances.
